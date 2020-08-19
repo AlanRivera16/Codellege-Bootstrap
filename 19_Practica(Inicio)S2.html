@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Facebook(2)</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
+    <script src="https://kit.fontawesome.com/9d8f824dd3.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-customBody">
+
+    <!-- Comienzo de navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark header bg-customNav border-bottom border-secondary fixed-top">
+      <div class="m-1">
+          <img src="./img/icono_face.png" alt="" class="w-customImg">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse position-absolute" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-2">
+          <li class="nav-item active">
+              <form class="form-inline mt-1 ml-5">
+                  <input class="form-control mt-1 bg-customImp rounded-pill" type="search" placeholder="&#xf002; Buscar en Facebook" aria-label="Search">
+                </form>
+          </li>
+          <li class="ml-3">
+            <div style="margin-left: 50px;">
+              <button type="button" class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Inicio"><i class="fas fa-home" style="font-size: 25px; color:#2d88ff;"></i></button>
+              <button type="button" class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Páginas"><i class="far fa-flag" style="font-size: 25px; color:#b0b3b8;"></i></button>
+              <button type="button" class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Watch"><i class="far fa-play-circle" style="font-size: 25px; color:#b0b3b8;"></i></button>
+              <button type="button" class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Compra y venta"><i class="fas fa-store" style="font-size: 25px; color:#b0b3b8;"></i></button>
+              <button type="button" class="btn btn-custom" data-toggle="tooltip" data-placement="bottom" title="Grupos"><i class="fas fa-users" style="font-size: 25px; color:#b0b3b8;"></i></button>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" style="margin-left: 100px;">
+          <div class="text-center">
+            <button class="btn-customPer" type="button" style="width: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 28px; height: 28px; border-radius: 50%; float: left; margin-right: 5px;"/><span class="">Alan</span></button>
+          </div>
+          <div id="botonesIzq" class="ml-3">
+            <button type="button" class="btn btn-circle btn-xl" data-toggle="tooltip" data-placement="bottom" title="Crear"><i class="fas fa-plus"></i></i>
+            </button>
+            <button type="button" class="btn btn-circle btn-xl" data-toggle="tooltip" data-placement="bottom" title="Messenger"><i class="fab fa-facebook-messenger"></i>
+              <div class="rounded-circle ml-2 badge badge-danger" style="width:20px; height: 20px;">2</div>
+            </button>
+            <button type="button" class="btn btn-circle btn-xl" data-toggle="tooltip" data-placement="bottom" title="Notificaciones"><i class="fas fa-bell"></i>
+              <div class="rounded-circle ml-2 badge badge-danger" style="width:20px; height: 20px;">9</div>
+            </button>
+            <button type="button" class="btn btn-circle btn-xl" data-toggle="tooltip" data-placement="bottom" title="Cuenta"><i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+        </form>
+        
+      </div>
+    </nav>
+    <!-- Aquí termina el navbar -->
+
+  <div class="vh-100" style="margin-top: 50px;">
+    
+    
+    <!-- Cuerpo de Página -->
+    <div id="padre" class=" vh-100 w-100 d-flex justify-content-around">
+
+
+<!-- ####################################################################################################################################################################################################################################################################################################################################### -->
+
+      <!-- Lado izquierdo -->
+      <div id="uno"  class="w-custom1 sticky-bottom custom pt-4" style="height: auto; left: 3px; overflow:scroll;">
+        <div id="botones arriba" class="m-1 pb-2" style="border-bottom: 1px solid gray;">
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-img2 d-flex mr-2  mt-1">
+            </div>
+            <h6 class=" mt-2"> Alan Rivera</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white" style="height: 50px; border-radius: 8px;">
+            <h6 class="mt-2" style="font-size: 14.5px;"><i class="fas fa-shield-virus fa-lg mr-2" style="color: #d32ea3;"></i> COVID-19: Centro de información
+            </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6><i class="fas fa-flag fa-lg mr-1" style="color: #ea572a"></i> Páginas <span class="text-primary ml-4" style="font-size: small; display: block;"><i class="fas fa-circle" style="font-size: 8px;"></i> +9 nuevos</span> </h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6 class="mt-2"><i class="fas fa-user-friends fa-lg mr-1" style="color: #24affd;"></i> Amigos</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6 class="mt-2"><i class="fab fa-facebook-messenger fa-lg mr-1" style="color: #24affd;"></i> Messenger</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6 class="mt-2"><i class="fas fa-store fa-lg mr-1" style="color: #24affd;"></i> Compras</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6><i class="fas fa-play-circle fa-lg mr-1" style="color: #24affd;"></i> Videos <span class="text-primary ml-4" style="font-size: small; display: block;"><i class="fas fa-circle" style="font-size: 8px;"></i> +9 videos nuevos</span></h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white " style="height: 50px; border-radius: 8px;">
+            <h6 class="mt-2"><i class="fas fa-chevron-circle-down fa-lg mr-1 text-secondary"></i> Ver más</h6>
+          </div>
+        </div>
+        <div id="abajo" class="m-2">
+          <div class="d-flex">
+            <h6 class="text-secondary mr-3">Tus accesos directos</h6>
+            <a class="btn btn-hove btn-sm text-primary ml-4 " href="#" role="button">Editar</a>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgEDN d-flex mr-2  mt-1">
+            </div>
+            <h6 class=" mt-2"> Empieza de nuevo</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgMDA d-flex mr-2  mt-1">
+            </div>
+            <h6 class=" mt-2"> Muñequitos de amor</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgSB d-flex mr-2  mt-1">
+            </div>
+            <h6 class=" mt-2"> Supernatural Best</h6>
+          </div>
+          <div style="padding-bottom: 25%;">
+          <a href="" class="text-secondary" style="font-size: small;">Privacidad</a>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <a href="" class="text-secondary" style="font-size: small;">Condiciones</a>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <a href="" class="text-secondary" style="font-size: small;">Publicidad</a>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <a href="" class="text-secondary" style="font-size: small;">Opciones de anuncios <i class="fab fa-google-play"></i></a>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <a href="" class="text-secondary" style="font-size: small;">Cookies</a>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <span href="" class="text-secondary" style="font-size: small;">Más</span>
+          <span class="text-secondary" style="font-size: small;">·</span>
+          <span href="" class="text-secondary" style="font-size: small;">Facebook &copy; 2020</span>
+          </div>
+        </div>
+        
+      </div>
+
+<!-- ####################################################################################################################################################################################################################################################################################################################################### -->
+      <!-- Lado centro -->
+      <div id="2" class=" w-custom2 h-auto pt-3">
+        <div id="carouselHistory" class="carousel slide mt-2 mx-5" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-group m-2">
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style=" height: 13rem; border: transparent; background-image: url(./img/history-Alan2.jpg);">
+                  <div class="card-body p-0" style="margin-top:70%;">
+                    <h4><i class="fas fa-plus-circle text-primary" style="font-size:33px; margin-top: 20px;"></i></h4>
+                    <h6 class="card-title text-sm text-white" style="margin-top: 30px;">Crear una historia</h6>
+                  </div>
+                </buttom> 
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style=" height: 13rem; border: transparent; background-image: url(./img/history-Vale.jpg);">
+                  <div  class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Valery SanAre</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Ary.webp);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Ariana Rivera</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Chuy.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Jesús Israel</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-karla.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 115px;">Karla Albarado</h6>
+                  </div>
+                </buttom>
+                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-group m-2">
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Cristo.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Cristo Rivera</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Pao.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Pao Acevedo</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Fer.png);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 115px;">Fernando Miguel</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Wendy.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 115px;">Wendy Cordoba</h6>
+                  </div>
+                </buttom>
+                <buttom id="Hys" class="btn card m-1 rounded-lg" style="padding:6px 6px ; height: 13rem; border:transparent; background-image: url(./img/history-Martin.jpg);">
+                  <div class="card-body p-0">
+                    <div style="margin-right: 80px;"><img src="./img/FotoPerfil.jpg" alt="" style="width: 40px; height: 40px; border-radius: 50%; border: solid 4px #2d88ff;"/></div>
+                    <h6 class="card-title text-white" style="margin-top: 125px;">Martin Munoz</h6>
+                  </div>
+                </buttom>
+              </div>
+            </div>
+            <i class=""></i>
+          </div>
+          <a class="carousel-control-prev rounded-circle" href="#carouselHistory" style="width: 45px; height: 45px; margin-top: 12%;" role="button" data-slide="prev">
+            <span class="carousel-control" aria-hidden="true"><i class="fas fa-long-arrow-alt-left" style="font-size: 30px; margin-top: 3px; margin-left: 5px;"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next rounded-circle bg-customBtnCarR" href="#carouselHistory" style="width: 45px; height: 45px; margin-top: 13%;" role="button" data-slide="next">
+            <span class="carousel-control" aria-hidden="true"><i class="fas fa-long-arrow-alt-right" style="font-size: 30px; margin-top: 3px; color: white;"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div id="Pensar" class="bg-centro m-custompensar rounded-lg"   style="height: 142px;">
+          <div class="d-flex pt-2 mx-4">
+            <button class="btn mt-1 pr-0">
+              <img src="./img/FotoPerfil.jpg" alt="" style="width: 35px; height: 35px; border-radius: 50%;"/>
+            </button>
+            <button class="btn btn-block bg-customQue text-left m-2 mr-3">¿Qué estás pensando Alan?</button>
+          </div>
+          <hr width="470" color="gray">
+          <div class="d-flex justify-content-center">
+            <buttom type="buttom" class="btn btn-VFS"><span style="color: red;"><i class="fas fa-video fa-lg"></i></span> Video en vivo</buttom>
+            <buttom type="buttom" class="btn btn-VFS"><span style="color: green;"><i class="fas fa-images fa-lg"></i></span> Fotos/video</buttom>
+            <buttom type="buttom" class="btn btn-VFS"><span style="color: rgb(255, 208, 0);"><i class="far fa-laugh fa-lg"></i></span> Sentimiento/actividad</buttom>
+          </div>
+        </div>
+
+        <div id="Salas" class="bg-centro m-custompensar rounded-lg" style="height: 120px;">
+          <div class="mx-4 pt-3 text-customVid">
+            <i class="fas fa-video fa-lg mr-1"></i>
+            <span style="color: white; font-weight: bold;"> Salas</span>
+            <p class="d-inline text-secondary">· Haz un videochat con tus amigos</p>
+            <a href="" class="text-primary d-inline float-right text-decoration-none">Crear sala</a>
+          </div>
+          <!-- carousel icon -->
+          <div id="carouselIcons" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-group m-2">
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group m-2">
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom>
+                  <buttom class="btn card m-1 rounded-lg bg-transparent" style="width:3rem; height: 4rem; border: none;">
+                    <div class="card-body p-0">
+                      <div class="bg-img d-flex justify-content-around">
+                        <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                      </div>
+                    </div>
+                  </buttom> 
+                </div>
+              </div>
+                
+            </div>
+            <a class="carousel-control-prev rounded-circle" href="#carouselIcons" style="width: 30px; height: 30px; margin-top: 4%;" role="button" data-slide="prev">
+              <span class="carousel-control" aria-hidden="true"><i class="fas fa-long-arrow-alt-left" style="font-size: 30px; margin-top: 3px; margin-left: 5px;"></i></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next rounded-circle bg-customBtnCarR" href="#carouselIcons" style="width: 30px; height: 30px; margin-top: 4%;" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div id="Grupos" class="bg-centro m-custompensar rounded-lg" style="height:400px;">
+          <div class="d-flex">
+            <h6 class="text-secondary pt-3 pl-3" style="font-weight: bolder;">Grupos sugeridos</h6>
+          <button class="btn text-secondary btn-HOVER pt-3" style="margin-left: 60%;"><i class="fas fa-ellipsis-h fa-lg"></i></button>
+          </div>
+          <!-- carousel grupos -->
+          <div id="carouselGrupos" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card-group m-1">
+                  <div class="card m-1 rounded-top rounded-bottom border-secondary mb-5">
+                    <img src="./img/Apex-Legends-Season-1.png" class="card-img-top rounded-top" alt="...">
+                    <div class="card-body p-2 pt-0 bg-dark">
+                      <h6 class="card-title text-white">Apex Legends México</h6>
+                        <span class="card-text text-secondary font-weight-bold" style="font-size: 12px;">300 mil miembros | 130 publicaciones al día</span>
+                        <span class="d-block text-secondary font-weight-bold"><i class="fas fa-lock" style="font-size: 10px;"></i><span class="d-inline" style="font-size: 11px;"> Grupo privado</span></span>
+                        <span class="card-text d-block text-secondary font-weight-bold" style="font-size: 12px;">Porque viste Apex Legend México recientemente</span>
+                        <a href="#" class="btn btn-primary btn-sm btn-block">Unirse al grupo</a>
+                    </div>
+                  </div>
+                  <div class="card m-1 rounded-top rounded-bottom border-secondary mb-5" style="border-left:1px solid gray;">
+                    <img src="./img/fornite-cap-2.jpg" class="card-img-top rounded-top" alt="...">
+                    <div class="card-body p-2 pt-0 bg-dark">
+                      <h6 class="card-title text-white">Fornite</h6>
+                        <span class="card-text text-secondary font-weight-bold" style="font-size: 12px;">100 mil miembros | 210 publicaciones al día</span>
+                        <span class="d-block text-secondary font-weight-bold"><i class="fas fa-lock-open" style="font-size: 10px;"></i><span class="d-inline" style="font-size: 11px;"> Grupo abierto</span></span>
+                        <span class="card-text d-block text-secondary font-weight-bold" style="font-size: 12px;">Porque viste Apex Legend México recientemente</span>
+                        <a href="#" class="btn btn-primary btn-sm btn-block">Unirse al grupo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card-group m-1">
+                  <div class="card m-1 rounded-top rounded-bottom border-secondary mb-5">
+                    <img src="./img/blackpink.jpg" class="card-img-top rounded-top" alt="...">
+                    <div class="card-body p-2 pt-0 bg-dark">
+                      <h6 class="card-title text-white">BLACKPINK - Clube</h6>
+                        <span class="card-text text-secondary font-weight-bold" style="font-size: 12px;">210 mil miembros | 130 publicaciones al día</span>
+                        <span class="d-block text-secondary font-weight-bold"><i class="fas fa-lock" style="font-size: 10px;"></i><span class="d-inline" style="font-size: 11px;"> Grupo privado</span></span>
+                        <span class="card-text d-block text-secondary font-weight-bold" style="font-size: 12px;">Porque viste Army Clube y otros recientemente</span>
+                        <a href="#" class="btn btn-primary btn-sm btn-block">Unirse al grupo</a>
+                    </div>
+                  </div>
+                  <div class="card m-1 rounded-top rounded-bottom border-secondary mb-5" style="border-left:1px solid gray;">
+                    <img src="./img/casa_papel.jpg" class="card-img-top rounded-top" alt="...">
+                    <div class="card-body p-2 pt-0 bg-dark">
+                      <h6 class="card-title text-white">La casa de papel</h6>
+                        <span class="card-text text-secondary font-weight-bold" style="font-size: 12px;">102 mil miembros activos | 90 publicaciones al día</span>
+                        <span class="d-block text-secondary font-weight-bold"><i class="fas fa-lock-open" style="font-size: 10px;"></i><span class="d-inline" style="font-size: 11px;"> Grupo abierto</span></span>
+                        <span class="card-text d-block text-secondary font-weight-bold" style="font-size: 12px;">Porque viste Arrow DC y otros recientemente</span>
+                        <a href="#" class="btn btn-primary btn-sm btn-block">Unirse al grupo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev mb-5" style="width: 90px;" href="#carouselGrupos" role="button" data-slide="prev">
+                <span class="carousel-control mr-1" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next mb-5 bg-secondary rounded-circle" style="width: 30px; height: 30px; margin-top: 30%;" href="#carouselGrupos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon ml-1" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Aquí empieza una publicación -->
+          <div id="PUBLICACION" class="card bg-centro" style="width: 34rem;">
+            <div class="card-header d-flex pb-1 pt-2">
+              <div class="bg-img mr-2">
+              </div>
+              <div style="margin-right: 310px;">
+                <span class=""><a href="" style="color: white; font-weight: bolder;">Alan Rivera</a></span>
+                <span class="d-block text-secondary" style="font-size: small;">14 h · <i class="fas fa-user-friends fa-sm"></i></span>
+              </div>
+              <button class="btn text-secondary"><i class="fas fa-ellipsis-h fa-lg"></i></button>
+            </div>  
+            <img src="./img/Publicación.jpg" class="card-img" style="border-radius:0px;" alt="...">
+            <div class="card-footer" style="padding: 10px; padding-bottom: 0px;">
+              <div id="caja-emojis" class="d-flex pb-3" style="border-bottom: solid 1px gray;">
+                <div class="bg-emojic mt-1">
+                </div>
+                <div class="bg-emojil mt-1">
+                </div>
+                <div class="bg-emojiw mt-1">
+                </div>
+                <a href="" class="text-secondary ml-2">Cristo Riv, Valerya SanAre y 20 personas más</a>
+                <a href="" style="margin-left: 25px;">1 comentario</a>
+              </div>
+              <div class="d-flex justify-content-around mt-1" style="border-bottom: solid 1px gray;">
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-thumbs-up fa-lg"></i> Me gusta</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-comment-alt fa-lg"></i> Comentar</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-share-square fa-lg"></i> Compartir</buttom>
+              </div>
+              <div class="d-flex">
+                <a href="">
+                  <div class="bg-img d-flex justify-content-around mt-3">
+                  <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                </div>
+                </a>
+                <div class="input-group mb-3 mt-3 ml-2 bg-customImp rounded-pill">
+                  <input type="text" class="form-control bg-customImp rounded-pill" placeholder="Escribe un comentario" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Inserta un emoji"><i class="far fa-smile-beam"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Adjunta una foto o un video"><i class="fas fa-camera"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un gif"><i class="far fa-plus-square"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un Sticker"><i class="far fa-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <br>
+          <!-- Aquí empieza otra publicación (CON BODY) -->
+          <div id="PUBLICACION" class="card bg-centro" style="width: 34rem;">
+            <div class="card-header d-flex pb-1 pt-2" style="border: transparent;">
+              <div class="bg-imgAM mr-2">
+              </div>
+              <div style="margin-right: 310px;">
+                <span class=""><a href="" style="color: white; font-weight: bolder;">Apex Legends</a></span>
+                <span class="d-block text-secondary" style="font-size: small;">16 h · <i class="fas fa-user-friends fa-sm"></i></span>
+              </div>
+              <button class="btn text-secondary btn-sm"><i class="fas fa-ellipsis-h fa-lg"></i></button>
+            </div>  
+            <div class="card-body p-0 m-1 ml-3 mb-2 mt-0">
+              <span class="text-white" style="font-size: 15px;">Mañana tenemos la nueva actualización para la temporada 6. Agradecido con el de arriba ¡Al fin! :D</span>
+            </div>
+            <img src="./img/publicacion_apex.jpg" class="card-img" style="border-radius:0px;" alt="...">
+            <div class="card-footer" style="padding: 10px; padding-bottom: 0px;">
+              <div id="caja-emojis" class="d-flex pb-3" style="border-bottom: solid 1px gray;">
+                <div class="bg-emojic mt-1">
+                </div>
+                <div class="bg-emojil mt-1">
+                </div>
+                <div class="bg-emojiw mt-1">
+                </div>
+                <a href="" class="text-secondary ml-2">Jesús Israel, Jorge Andres y 20 personas más</a>
+                <a href="" style="margin-left: 25px;">64 comentario</a>
+              </div>
+              <div class="d-flex justify-content-around mt-1" style="border-bottom: solid 1px gray;">
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-thumbs-up fa-lg"></i> Me gusta</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-comment-alt fa-lg"></i> Comentar</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-share-square fa-lg"></i> Compartir</buttom>
+              </div>
+              <div class="d-flex">
+                <a href="">
+                  <div class="bg-img d-flex justify-content-around mt-3">
+                  <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                </div>
+                </a>
+                <div class="input-group mb-3 mt-3 ml-2 bg-customImp rounded-pill">
+                  <input type="text" class="form-control bg-customImp rounded-pill" placeholder="Escribe un comentario" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Inserta un emoji"><i class="far fa-smile-beam"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Adjunta una foto o un video"><i class="fas fa-camera"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un gif"><i class="far fa-plus-square"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un Sticker"><i class="far fa-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <!-- Aquí empieza otra publicación (CON BODY) -->
+          <div id="PUBLICACION" class="card bg-centro" style="width: 34rem;">
+            <div class="card-header d-flex pb-1 pt-2" style="border: transparent;">
+              <div class="bg-imgEF mr-2">
+              </div>
+              <div style="margin-right: 310px;">
+                <span class=""><a href="" style="color: white; font-weight: bolder;">El Fedelobo</a></span>
+                <span class="d-block text-secondary" style="font-size: small;">1 d · <i class="fas fa-user-friends fa-sm"></i></span>
+              </div>
+              <button class="btn text-secondary btn-sm"><i class="fas fa-ellipsis-h fa-lg"></i></button>
+            </div>  
+            <div class="card-body p-0 m-1 ml-3 mb-2 mt-0">
+              <span class="text-white" style="font-size: 15px;">Si pasa jeje xD</span>
+            </div>
+            <img src="./img/publicacion_Fede.jpg" class="card-img" style="border-radius:0px;" alt="...">
+            <div class="card-footer" style="padding: 10px; padding-bottom: 0px;">
+              <div id="caja-emojis" class="d-flex pb-3" style="border-bottom: solid 1px gray;">
+                <div class="bg-emojic mt-1">
+                </div>
+                <div class="bg-emojil mt-1">
+                </div>
+                <div class="bg-emojiw mt-1">
+                </div>
+                <a href="" class="text-secondary ml-2">8.3 mil</a>
+                <a href="" style="margin-left: 100px;">300 comentarios</a>
+                <a href="" class="text-secondary ml-2">1.9 mil veces compartidas</a>
+              </div>
+              <div class="d-flex justify-content-around mt-1" style="border-bottom: solid 1px gray;">
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-thumbs-up fa-lg"></i> Me gusta</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-comment-alt fa-lg"></i> Comentar</buttom>
+                <buttom type="buttom" class="btn btn-VFS"><i class="far fa-share-square fa-lg"></i> Compartir</buttom>
+              </div>
+              <div class="d-flex">
+                <a href="">
+                  <div class="bg-img d-flex justify-content-around mt-3">
+                  <div class="rounded-circle bg-success ml-4" style="width:10px; height: 10px;"><span style="color: transparent;">-</span></div>
+                </div>
+                </a>
+                <div class="input-group mb-3 mt-3 ml-2 bg-customImp rounded-pill">
+                  <input type="text" class="form-control bg-customImp rounded-pill" placeholder="Escribe un comentario" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Inserta un emoji"><i class="far fa-smile-beam"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Adjunta una foto o un video"><i class="fas fa-camera"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un gif"><i class="far fa-plus-square"></i></button>
+                    <button class="btn btn-input" type="button" id="button-addon2" data-toggle="tooltip" data-placement="top" title="Publica un Sticker"><i class="far fa-copy"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+<!-- ####################################################################################################################################################################################################################################################################################################################################### -->
+      <!-- Lado derecho -->
+      <div id="tres" class="w-custom3 sticky-top pt-4" style="height: auto; overflow-y: scroll; ">
+        <div id="Publicidad" class="m-1 pb-2" style="border-bottom: gray solid 1px;">
+          <h6 class="text-secondary  pt-2" style="font-size:20px;">Publicidad</h6>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 132px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgPI d-flex mt-1 p-5">
+              </div>
+              <h6 class=" mt-4" style="margin-left: 5%;">Revisa las ofertas de iPhone <span style="font-size: small; color: gray;">iphone.com.mx</span></h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 112px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgPC d-flex p-5">
+              </div>
+              <h6 class=" mt-4" style="margin-left: 5%;">Nuevos cursos creativos <span style="font-size: small; color: gray;">creatividad_casa.com</span></h6>
+            </div>
+        </div>
+
+        <div id="Tus páginas" class="m-2 pb-2" style="border-bottom: gray solid 1px;">
+          <div class="d-flex">
+            <h6 class="text-secondary" style="margin-right:80px; font-size:20px;">Tus páginas</h6>
+            <a class="btn btn-hove btn-sm text-primary ml-4" href="#" role="button"><i class="fas fa-ellipsis-h fa-lg text-secondary"></i></a>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgEDN d-flex mr-2  mt-1">
+            </div>
+            <h6 class=" mt-2 font-weight-bold"> Empieza de nuevo</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-secondary d-flex " style="height: 35px; border-radius: 8px; padding-left: 8px;">
+            <h6 class=""><i class="far fa-bell fa-lg pl-3 mr-2"></i> 20+ Notificaciones</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-secondary d-flex " style="height: 35px; border-radius: 8px; padding-left: 8px;">          
+            <h6 class=""><i class="fas fa-bullhorn fa-lg pl-3 mr-2"></i> Crear promoción</h6>
+          </div>
+        </div>
+
+        <div id="Solicitudes" class="m-2 pb-2" style="border-bottom: gray solid 1px;">
+          <div class="d-flex">
+            <h6 class="text-secondary mr-3 mt-1" style="font-size:18px;">Solicitudes de amistad</h6>
+            <a class="btn btn-hove btn-sm text-primary  " href="#" role="button">Todos</i></a>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 100px; border-radius: 8px; padding-left: 5px;">
+            <div class="bg-imgEDN2 d-flex mt-1">
+            </div>
+            <h6 class=" mt-2 font-weight-bold" style="margin-left: 8px;">Valery SanAre <span class="text-secondary" style="font-size: 12px; float: right;">2d</span> <span class="text-secondary d-block" style="font-size: 12px; ">120 amigos en comun</span>
+            <button class=" btn btn-primary mt-2">Confirmar</button>
+            <button class=" btn btn-secondary mt-2">Eliminar</button>
+            </h6>
+          </div>
+        </div>
+
+          <div id="Contactos" class="m-2 pb-2" style="border-bottom: gray solid 1px;">
+            <div class="d-flex">
+              <h6 class="text-secondary mr-5" style="font-size:20px;">Contanctos</h6>
+              <a class="btn btn-hove btn-sm text-secondary  ml-3" href="#" role="button"><i class="fas fa-video"></i></a>
+              <a class="btn btn-hove btn-sm text-secondary  " href="#" role="button"><i class="fas fa-search"></i></a>
+              <a class="btn btn-hove btn-sm text-secondary  " href="#" role="button"><i class="fas fa-ellipsis-h"></i></a>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Valeria SanAre</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Cristo Rivera</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Pako P. Martínez</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Martin MT</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Ariana Rivera</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Josefina Reyes</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Fernando Juarez</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Jose Jair Rodriguez</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Fabiola de la Rosa</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Paola Acevedo</h6>
+            </div>
+            <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+              <div class="bg-imgDC mt-1 d-flex justify-content-around">
+                <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+              </div>
+              <h6 class=" mt-2 ml-3"> Lessli Aguirre</h6>
+            </div>
+        </div>
+
+        <div id="Contactos" class="m-2 pb-2" >
+          <div class="d-flex">
+            <h5 class="text-secondary mr-5">Conversaciones en grupo</h5>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgDC mt-1 d-flex justify-content-around">
+              <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+            </div>
+            <h6 class=" mt-2 ml-3">TERCERO D</h6>
+          </div>
+          <div class="btn-hove btn w-100 text-left text-white d-flex " style="height: 50px; border-radius: 8px; padding-left: 8px;">
+            <div class="bg-imgDC mt-1 d-flex justify-content-around">
+              <div class="rounded-circle bg-success ml-4" style="width:8px; height: 8px;"><span style="color: transparent;">-</span></div>
+            </div>
+            <h6 class=" mt-2 ml-3"> Cristo Rivera</h6>
+          </div>
+          
+      </div>
+
+
+    </div>
+    
+    
+  </div>
+    
+
+      
+      
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>
